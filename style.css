@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: "Hind", sans-serif;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #CCD3CA;
+}
+.heading{
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 50px;
+    margin: inherit;
+}
+.container{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 10px;
+    background: #9CAFAA;
+    border-radius: 15px;
+}
+
+.Button{
+    width:79px;
+    padding: 20px;
+    margin: 0 2px;
+    border:2px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.row{
+    margin: 8px 0;
+}
+
+.input{
+    width: 319px;
+    font-size: 27px;
+    margin: 0;
+    padding: 20px 8px;
+    border: 2px solid black;
+    border-radius: 8px;
+    box-shadow: inset 0 0 15px 6px #888;
+}
+.oprators{
+    background-color: #1d1919e1;
+    color: #fff;
+}
+
+
+@media only screen and (min-width:180px) and (max-width:400px){
+    .container{
+        width: 240px;
+       
+    }
+    .input {
+        width: 210px;
+        font-size: 15px;
+    }
+    .Button {
+        width: 51px;
+        padding: 7px;
+    }
+    .heading{
+        font-size: 40px ;
+    }
+}
